@@ -2,12 +2,25 @@
 ## Goal the of this practicing
 - Comprehension and implement of
 
-- Reactive Programming
-  - Rxswift
-  - MVVM
-- Clean Architecture
-  - Dependency Injection
+　- Reactive Programming
+   - Rxswift
+   - MVVM
+　- Clean Architecture
+   - Dependency Injection
+   -
 
+
+  
+  - Dependency inversion principle
+
+
+# What is CleanArchitecture + RxSwift + MVVM ?
+
+
+
+# CleanArchitecure
+
+# DI(Dependency Injection)
 Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。
 ```
 //Login
@@ -19,15 +32,6 @@ Assembler
 ```
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
-
-  
-  - Dependency inversion principle
-
-
-# What is CleanArchitecture + RxSwift + MVVM ?
-
-# CleanArchitecure
-編集中〜
 
 # Reference
 
