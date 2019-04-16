@@ -2,7 +2,7 @@
 
 # CleanArchitecure
 
-#Reference
+# Reference
 
 - Example of Clean Architecture of iOS app using RxSwift
 https://github.com/sergdort/CleanArchitectureRxSwift
