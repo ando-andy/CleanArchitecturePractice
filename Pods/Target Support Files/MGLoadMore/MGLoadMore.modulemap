@@ -1,0 +1,6 @@
+framework module MGLoadMore {
+  umbrella header "MGLoadMore-umbrella.h"
+
+  export *
+  module * { export * }
+}

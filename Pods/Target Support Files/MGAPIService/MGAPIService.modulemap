@@ -1,0 +1,6 @@
+framework module MGAPIService {
+  umbrella header "MGAPIService-umbrella.h"
+
+  export *
+  module * { export * }
+}

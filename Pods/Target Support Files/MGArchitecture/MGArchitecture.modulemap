@@ -1,0 +1,6 @@
+framework module MGArchitecture {
+  umbrella header "MGArchitecture-umbrella.h"
+
+  export *
+  module * { export * }
+}

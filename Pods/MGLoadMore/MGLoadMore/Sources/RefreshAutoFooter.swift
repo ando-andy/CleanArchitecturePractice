@@ -1,0 +1,71 @@
+//
+//  RefreshAutoFooter.swift
+//  MGLoadMore
+//
+//  Created by Tuan Truong on 4/5/19.
+//  Copyright © 2019 Sun Asterisk. All rights reserved.
+//
+
+import UIKit
+import MJRefresh
+
+open class RefreshAutoFooter: MJRefreshAutoFooter {
+    
+    open var activityIndicatorViewStyle = UIActivityIndicatorView.Style.gray {
+        didSet {
+            _loadingView = nil
+            setNeedsLayout()
+        }
+    }
+    
+    private var _loadingView: UIActivityIndicatorView?
+    
+    open var loadingView: UIActivityIndicatorView {
+        if _loadingView == nil {
+            let view = UIActivityIndicatorView(style: self.activityIndicatorViewStyle)
+            view.hidesWhenStopped = true
+            self.addSubview(view)
+            _loadingView = view
+        }
+        return _loadingView!
+    }
+    
+    open override func prepare() {
+        super.prepare()
+        activityIndicatorViewStyle = .gray
+    }
+    
+    open override func placeSubviews() {
+        super.placeSubviews()
+        let center = CGPoint(x: mj_w * 0.5, y: mj_h * 0.5)
+        if loadingView.constraints.count == 0 {
+            loadingView.center = center
+        }
+    }
+    
+    open override var state: MJRefreshState {
+        didSet {
+            switch state {
+            case .idle:
+                if oldValue == .refreshing {
+                    UIView.animate(withDuration: TimeInterval(MJRefreshSlowAnimationDuration), animations: {
+                        self.loadingView.alpha = 0
+                    }) { (finished) in
+                        self.loadingView.alpha = 1
+                        self.loadingView.stopAnimating()
+                    }
+                } else {
+                    loadingView.stopAnimating()
+                }
+            case .pulling:
+                loadingView.stopAnimating()
+            case .refreshing:
+                loadingView.startAnimating()
+            case .noMoreData:
+                loadingView.stopAnimating()
+            default:
+                break
+            }
+        }
+    }
+}
