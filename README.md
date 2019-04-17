@@ -32,7 +32,7 @@ Assembler
 
 
 # Reference
-
+### Web
 - Example of Clean Architecture of iOS app using RxSwift
 https://github.com/sergdort/CleanArchitectureRxSwift
 
@@ -51,6 +51,7 @@ https://github.com/peaks-cc/iOS_architecture_samplecode
 - concept compression about CA in Japanese
 https://github.com/koutalou/iOS-CleanArchitecture
 
+### Book
 - 「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
 
 - 「iOSアプリ設計パターン入門」
