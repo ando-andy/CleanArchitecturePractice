@@ -1,5 +1,5 @@
 
-#  The goal of this practicing
+#  The goal of this practice
 ### Comprehension and implement of
 
 　   1. Reactive Programming
