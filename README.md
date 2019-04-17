@@ -35,23 +35,17 @@ Assembler
 
 # Reference
 ### Web
-- Example of Clean Architecture of iOS app using RxSwift
-https://github.com/sergdort/CleanArchitectureRxSwift
+[Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
 
-- Folked from this project
-https://github.com/tuan188/MGCleanArchitecture
+[Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
-- Easy to generate the structure of Dependency Injection
-https://github.com/tuan188/MGiGen
+[Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
-- What is Dependency Injection?
-https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a
+[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
-- concept compression about CA in Japanese
-https://github.com/peaks-cc/iOS_architecture_samplecode
+[concept compression about CA in Japanese](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
-- concept compression about CA in Japanese
-https://github.com/koutalou/iOS-CleanArchitecture
+[concept compression about CA in Japanese](https://github.com/koutalou/iOS-CleanArchitecture)
 
 ### Book
 - 「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
