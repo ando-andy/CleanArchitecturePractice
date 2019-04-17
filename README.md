@@ -2,11 +2,11 @@
 # Goal the of this practicing
 ### Comprehension and implement of
 
-　####1. Reactive Programming
+　###1. Reactive Programming
       1-1.Rxswift
       1-2.MVVM
    
-　####2. Clean Architecture
+　###2. Clean Architecture
       2-1 Dependency Injection
       2-2 Dependency inversion principle
 
@@ -16,9 +16,9 @@
 
 
 
-### CleanArchitecure
+## CleanArchitecure
 
-#### DI(Dependency Injection)
+### DI(Dependency Injection)
    Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。
 ```
 //Login
@@ -50,4 +50,16 @@ https://github.com/peaks-cc/iOS_architecture_samplecode
 
 - concept compression about CA in Japanese
 https://github.com/koutalou/iOS-CleanArchitecture
+
+- 「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
+
+- 「iOSアプリ設計パターン入門」
+
+- 「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
+
+- "Swift3 Functional Programing"
+
+- "Test-Driven iOS Development with Swift 3"
+
+- "RxSwift Reactive Programming with Swift"
 
