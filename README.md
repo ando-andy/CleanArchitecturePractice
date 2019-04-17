@@ -4,13 +4,13 @@
 
 　   1. Reactive Programming
     
-      - 1-1.Rxswift
-      - 1-2.MVVM
+ - 1-1.Rxswift
+ - 1-2.MVVM
    
 　   2. Clean Architecture
     
-      - 2-1 Dependency Injection  
-      - 2-2 Dependency inversion principle
+ - 2-1 Dependency Injection  
+ - 2-2 Dependency inversion principle
 
 
   
