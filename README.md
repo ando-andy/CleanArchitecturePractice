@@ -1,6 +1,6 @@
 
 #  The goal of this practice
-### Comprehension and implement of
+### Comprehension and implementation of
 
 　   1. Reactive Programming
     
