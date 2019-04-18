@@ -57,7 +57,7 @@ Rx 用語まとめ
 # Footnote
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
 
-<span id="4" style="font-size:x-small">4:[RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
+<span id="4" style="font-size:x-small">4: [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
 # Reference
 
 ## Web 
@@ -66,7 +66,9 @@ Rx 用語まとめ
 ### Japanese
 [Begineer for Rx](https://qiita.com/nomok_/items/39b5d7c61810f274768d)
 
-[Observer pattern](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
+[Observer pattern Wiki](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
+
+[RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)
 
 ### English
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
