@@ -20,8 +20,8 @@
 
 ## CleanArchitecure
 
-### DI(Dependency Injection)[^1]: 
-   Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。
+### DI(Dependency Injection) 
+   [^3]: Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。
 ```
 //Login
 Assembler
@@ -30,7 +30,7 @@ Assembler
   LoginView
   LoginViewModel
 ```
-アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。[^3]: 
+[^3]: アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
 
 # Reference
