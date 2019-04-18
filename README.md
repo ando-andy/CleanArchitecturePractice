@@ -53,7 +53,9 @@ Assembler
 [Example2 code ofCA](https://github.com/koutalou/iOS-CleanArchitecture)
 
 ### Book
-「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
+「RxSwift 研究読本1 入門編」
+「RxSwift 研究読本2 エラーハンドリング編」
+「RxSwift 研究読本3 ViewModel 設計パターン編」　
 
 「iOSアプリ設計パターン入門」
 
