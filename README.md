@@ -39,12 +39,12 @@ Assembler
 
 # Reference
 
-### Web 
-## Article
+## Web 
+### Article
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
-## Code
+### Code
 [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
 [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
@@ -55,9 +55,9 @@ Assembler
 
 [Example2 code of CA (from quita)](https://github.com/koutalou/iOS-CleanArchitecture)
 
-### Book
+## Book
 
-## Japanese
+### Japanese
 「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
 
 「iOSアプリ設計パターン入門」
@@ -68,7 +68,7 @@ Assembler
 
 「RxSwift 研究読本3 ViewModel 設計パターン編」　
 
-## English
+### English
 "The Swift Programming Language"
 
 "Swift3 Functional Programing"
