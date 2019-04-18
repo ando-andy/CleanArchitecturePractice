@@ -34,7 +34,7 @@ Assembler
 
 
 # Footnote
-<span id="3" style="font-size:x-small">1: 注釈の内容</span>
+<span id="3" style="font-size:x-small">3: 注釈の内容</span>
 
 
 # Reference
