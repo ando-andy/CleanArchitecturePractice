@@ -41,9 +41,15 @@ Assembler
 
 ## Web 
 ### Article
+
+### Japanese
+[Observer pattern](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
+
+### English
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
+
 ### Code
 [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
