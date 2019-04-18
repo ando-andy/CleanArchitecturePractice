@@ -23,6 +23,8 @@
 
 ### concept of CleanArchitecture<sup><a href="#2">2</a></sup>
 
+### SOLID Principle<sup><a href="#2">2</a></sup>
+
 ### DI(Dependency Injection) 
 DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#3">3</a></sup>
 ```
@@ -67,15 +69,18 @@ Observableを自動的に解放するための機能<sup><a href="#5">5</a></sup
 
 
 # Footnote
-<span id="１" style="font-size:x-small">1:  [CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)</span>
+<span id="１" style="font-size:x-small">1: [CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)</span>
 
-<span id="2" style="font-size:x-small">2:  [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
+<span id="2" style="font-size:x-small">2: [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
 
-<span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
+<span id="3" style="font-size:x-small">3: [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)</span>
 
-<span id="4" style="font-size:x-small">4: [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
 
-<span id="5" style="font-size:x-small">5: [DisposeBag + weak reference](https://qiita.com/syou007/items/d527b4486c34686d0acd)</span>
+<span id="4" style="font-size:x-small">4: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
+
+<span id="5" style="font-size:x-small">5: [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
+
+<span id="6" style="font-size:x-small">6: [DisposeBag + weak reference](https://qiita.com/syou007/items/d527b4486c34686d0acd)</span>
 
 # Reference
 
