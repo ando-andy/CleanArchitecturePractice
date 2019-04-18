@@ -18,6 +18,7 @@
 
 へんしゅうちゅう〜
 
+
 ## CleanArchitecure
 
 ### DI(Dependency Injection) 
@@ -32,11 +33,34 @@ Assembler
 ```
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
+## RxSwwift
+- 
+
+ 
+- words
+Rx 用語まとめ
+・Stream (Sequence)<sup><a href="#4">4</a></sup>
+  データがイベントとして連なった流れ
+
+・Observable
+  Rxswiftにおけるストリームを生産する概念としてのクラスObservable
+
+・オペレータ
+  ストリームに対して処理を行うメソッド。
+  filter・map・merge・zip・reduceなど。
+
+・ストリームの購読(subscribe)
+  ストリームから伝搬されてくるイベントを順次処理する仕組み
+
+・関数型プログラミング
+  関数によって複数の処理を組み合わせる
+  入力と出力の関係だけのコードで書くことが推奨(外部のデータを変更しない)
+
 
 # Footnote
-<span id="3" style="font-size:x-small">3: "What is Dependency Injection?"</span>
+<span id="3" style="font-size:x-small">3: "[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)"</span>
 
-
+<span id="4" style="font-size:x-small">4:https://speakerdeck.com/ishkawa/rxswift-plus-mvvm</span>
 # Reference
 
 ## Web 
