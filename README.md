@@ -39,31 +39,40 @@ Assembler
 
 # Reference
 
-### Web
-[Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
+### Web 
+## Article
+[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
+[SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
+## Code
 [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
-[Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
+[Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
 
-[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
+[Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
 [Example1 code of CA (from peaks)](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
 [Example2 code of CA (from quita)](https://github.com/koutalou/iOS-CleanArchitecture)
 
 ### Book
-「RxSwift 研究読本1 入門編」
-「RxSwift 研究読本2 エラーハンドリング編」
-「RxSwift 研究読本3 ViewModel 設計パターン編」　
+
+## Japanese
+「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
 
 「iOSアプリ設計パターン入門」
 
-「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
+「RxSwift 研究読本1 入門編」
+
+「RxSwift 研究読本2 エラーハンドリング編」
+
+「RxSwift 研究読本3 ViewModel 設計パターン編」　
+
+## English
+"The Swift Programming Language"
 
 "Swift3 Functional Programing"
 
 "RxSwift Reactive Programming with Swift"
 
 "Test-Driven iOS Development with Swift 3"
-
