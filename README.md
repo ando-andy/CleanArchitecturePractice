@@ -2,7 +2,7 @@
 #  The goal of this practice
 ### Comprehension and implementation of
    
-　  1. Clean Architecture<sup><a href="#1">1</a></sup>
+　  1. Clean Architecture
     
  - 1-1 Dependency Injection  
  - 1-2 Dependency inversion principle
@@ -19,7 +19,7 @@
 へんしゅうちゅう〜
 
 
-## CleanArchitecure
+## CleanArchitecure<sup><a href="#1">1</a></sup>
 
 ### DI(Dependency Injection) 
 DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#3">3</a></sup>
@@ -65,7 +65,7 @@ Observableを自動的に解放するための機能<sup><a href="#5">5</a></sup
 
 
 # Footnote
-<span id="１" style="font-size:x-small">１:[CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)</span>
+<span id="１" style="font-size:x-small">１:  [CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)</span>
 
 <span id="2" style="font-size:x-small">2:  [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
 
