@@ -60,11 +60,16 @@ filter・map・merge・zip・reduce etc
 入力と出力の関係だけのコードで書くことが推奨(外部のデータを変更しない)
 
 - DisposeBag
+DisposeBagはObservableを自動的に解放するための機能<sup><a href="#5">5</a></sup>
+
 
 # Footnote
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
 
 <span id="4" style="font-size:x-small">4: [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
+
+<span id="5" style="font-size:x-small">5: [DisposeBag + weak reference](https://qiita.com/syou007/items/d527b4486c34686d0acd)</span>
+
 # Reference
 
 ## Web 
@@ -76,6 +81,8 @@ filter・map・merge・zip・reduce etc
 [Observer pattern Wiki](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
 
 [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)
+
+[DisposeBag + weak reference](https://qiita.com/syou007/items/d527b4486c34686d0acd)
 
 ### English
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
