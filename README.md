@@ -35,7 +35,7 @@ Assembler
 
 # 脚注
 
-[^1]:
+[^1]:  a
 
 
 # Reference
