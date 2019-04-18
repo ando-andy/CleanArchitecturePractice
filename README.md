@@ -34,9 +34,6 @@ Assembler
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
 ## RxSwwift
-- 
-
- 
 - words
 Rx 用語まとめ
 ・Stream (Sequence)<sup><a href="#4">4</a></sup>
@@ -60,7 +57,7 @@ Rx 用語まとめ
 # Footnote
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
 
-<span id="4" style="font-size:x-small">4:https://speakerdeck.com/ishkawa/rxswift-plus-mvvm</span>
+<span id="4" style="font-size:x-small">4:[RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
 # Reference
 
 ## Web 
