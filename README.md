@@ -34,7 +34,9 @@ Assembler
 
 
 # 脚注
+
 [^3]:　あ
+
 # Reference
 ### Web
 [^1]:  [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
