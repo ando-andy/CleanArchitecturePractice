@@ -21,7 +21,7 @@
 ## CleanArchitecure
 
 ### DI(Dependency Injection) 
-Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。[^3]
+Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。[^1]
 ```
 //Login
 Assembler
@@ -30,14 +30,16 @@ Assembler
   LoginView
   LoginViewModel
 ```
-アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される[^3] 。
+アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
 
 # 脚注
 
-[^3]:あ
+[^1]:
+
 
 # Reference
+
 ### Web
 [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
 
