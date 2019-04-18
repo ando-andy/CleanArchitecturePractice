@@ -19,7 +19,8 @@
 へんしゅうちゅう〜
 
 
-## CleanArchitecure<sup><a href="#1">1</a></sup>
+## CleanArchitecure
+<sup><a href="#1">1</a></sup>
 
 ### concept of CleanArchitecture<sup><a href="#2">2</a></sup>
 
