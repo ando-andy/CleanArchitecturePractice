@@ -38,23 +38,29 @@ Assembler
 
 Rx 用語まとめ
 
-・Stream (Sequence)<sup><a href="#4">4</a></sup>
-  データがイベントとして連なった流れ
+- Stream (Sequence)...
 
-・Observable
-  Rxswiftにおけるストリームを生産する概念としてのクラスObservable
+データがイベントとして連なった流れ<sup><a href="#4">4</a></sup>
 
-・オペレータ
-  ストリームに対して処理を行うメソッド。
-  filter・map・merge・zip・reduceなど。
+- Observable...
 
-・ストリームの購読(subscribe)
-  ストリームから伝搬されてくるイベントを順次処理する仕組み
+Rxswiftにおけるストリームを生産する概念としてのクラスObservable
 
-・関数型プログラミング
-  関数によって複数の処理を組み合わせる
-  入力と出力の関係だけのコードで書くことが推奨(外部のデータを変更しない)
+- オペレータ...
 
+ストリームに対して処理を行うメソッド。
+filter・map・merge・zip・reduce etc
+
+-ストリームの購読(subscribe)...
+
+ストリームから伝搬されてくるイベントを順次処理する仕組み
+
+- 関数型プログラミング...
+
+関数によって複数の処理を組み合わせる
+入力と出力の関係だけのコードで書くことが推奨(外部のデータを変更しない)
+
+- DisposeBag
 
 # Footnote
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
