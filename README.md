@@ -64,7 +64,9 @@ DisposeBagはObservableを自動的に解放するための機能<sup><a href="#
 
 
 # Footnote
-<span id="1" style="font-size:x-small">1: [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
+<span id="１" style="font-size:x-small">１:[CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)</span>
+
+<span id="2" style="font-size:x-small">2:  [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
 
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
 
@@ -78,6 +80,8 @@ DisposeBagはObservableを自動的に解放するための機能<sup><a href="#
 ### Article
 
 ### Japanese
+[Clean Architecture (translated from Eng)](https://blog.tai2.net/the_clean_architecture.html)
+
 [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)
 
 [Begineer for Rx](https://qiita.com/nomok_/items/39b5d7c61810f274768d)
@@ -89,6 +93,8 @@ DisposeBagはObservableを自動的に解放するための機能<sup><a href="#
 [DisposeBag + weak reference](https://qiita.com/syou007/items/d527b4486c34686d0acd)
 
 ### English
+
+[CleanArchitecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
