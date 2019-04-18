@@ -66,7 +66,7 @@ Assembler
 ## Book
 
 ### Japanese
-「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
+「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」 (translated from English version)
 
 「iOSアプリ設計パターン入門」
 
@@ -77,6 +77,8 @@ Assembler
 「RxSwift 研究読本3 ViewModel 設計パターン編」　
 
 ### English
+"Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)"
+
 "The Swift Programming Language"
 
 "Swift3 Functional Programing"
