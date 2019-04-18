@@ -11,7 +11,7 @@
     
  - 2-1 Dependency Injection  
  - 2-2 Dependency inversion principle
-
+ - 2-3 SOLID principle
 
   
 # What is CleanArchitecture + RxSwift + MVVM ?
