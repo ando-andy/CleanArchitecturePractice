@@ -48,9 +48,9 @@ Assembler
 
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
-[Example1 code ofCA](https://github.com/peaks-cc/iOS_architecture_samplecode)
+[Example1 code of CA (from peaks)](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
-[Example2 code ofCA](https://github.com/koutalou/iOS-CleanArchitecture)
+[Example2 code of CA (kotalou-san)](https://github.com/koutalou/iOS-CleanArchitecture)
 
 ### Book
 「RxSwift 研究読本1 入門編」
