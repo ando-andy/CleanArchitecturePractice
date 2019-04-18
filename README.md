@@ -34,7 +34,7 @@ Assembler
 
 
 # Footnote
-<span id="3" style="font-size:x-small">3: 注釈の内容</span>
+<span id="3" style="font-size:x-small">3: "What is Dependency Injection?"</span>
 
 
 # Reference
@@ -46,7 +46,7 @@ Assembler
 
 [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
-1. [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
+[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [Example1 code ofCA](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
