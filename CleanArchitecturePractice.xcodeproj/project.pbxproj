@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		39319A30ECAC003A937D47F3 /* Pods_CleanArchitecturePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C4B594C216E4C3136795A5 /* Pods_CleanArchitecturePractice.framework */; };
+		3B4B711A2266E23100378941 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B71192266E23100378941 /* APIService.swift */; };
+		3B4B711C2266E2E700378941 /* APIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B711B2266E2E700378941 /* APIInput.swift */; };
+		3B4B711E2267055900378941 /* APIOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B711D2267055900378941 /* APIOutput.swift */; };
+		3B4B712022670EE700378941 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B711F22670EE700378941 /* APIError.swift */; };
+		3B4B712222670F4400378941 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B712122670F4400378941 /* APIUrls.swift */; };
+		3B4B712422670F7400378941 /* API+Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B712322670F7400378941 /* API+Repo.swift */; };
+		3B4B712722670FDE00378941 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B712622670FDE00378941 /* Repo.swift */; };
 		3BAA4B72226085F700A6B3BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA4B71226085F700A6B3BF /* AppDelegate.swift */; };
 		3BAA4B77226085F700A6B3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA4B75226085F700A6B3BF /* Main.storyboard */; };
 		3BAA4B79226085F900A6B3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA4B78226085F900A6B3BF /* Assets.xcassets */; };
@@ -52,6 +59,13 @@
 /* Begin PBXFileReference section */
 		169C7F577003BCD85F697835 /* Pods-CleanArchitecturePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitecturePractice.release.xcconfig"; path = "Target Support Files/Pods-CleanArchitecturePractice/Pods-CleanArchitecturePractice.release.xcconfig"; sourceTree = "<group>"; };
 		18C4B594C216E4C3136795A5 /* Pods_CleanArchitecturePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanArchitecturePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4B71192266E23100378941 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3B4B711B2266E2E700378941 /* APIInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInput.swift; sourceTree = "<group>"; };
+		3B4B711D2267055900378941 /* APIOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIOutput.swift; sourceTree = "<group>"; };
+		3B4B711F22670EE700378941 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		3B4B712122670F4400378941 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
+		3B4B712322670F7400378941 /* API+Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Repo.swift"; sourceTree = "<group>"; };
+		3B4B712622670FDE00378941 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		3BAA4B6E226085F700A6B3BF /* CleanArchitecturePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitecturePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAA4B71226085F700A6B3BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BAA4B76226085F700A6B3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +123,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4B71182266E1CF00378941 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B71192266E23100378941 /* APIService.swift */,
+				3B4B711B2266E2E700378941 /* APIInput.swift */,
+				3B4B711D2267055900378941 /* APIOutput.swift */,
+				3B4B711F22670EE700378941 /* APIError.swift */,
+				3B4B712122670F4400378941 /* APIUrls.swift */,
+				3B4B712322670F7400378941 /* API+Repo.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		3B4B712522670FC100378941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B4B712622670FDE00378941 /* Repo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3BAA4B65226085F700A6B3BF = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +219,7 @@
 		3BAA4B8A2260883E00A6B3BF /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				3B4B712522670FC100378941 /* Models */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -199,6 +235,7 @@
 		3BAA4B8C2260886200A6B3BF /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				3B4B71182266E1CF00378941 /* APIService */,
 				3BAA4B8D2260887500A6B3BF /* Validation */,
 			);
 			path = Service;
@@ -459,11 +496,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BAA4B852260878300A6B3BF /* Assembler.swift in Sources */,
+				3B4B711A2266E23100378941 /* APIService.swift in Sources */,
 				3BAA4B8F2260888500A6B3BF /* ValidationError.swift in Sources */,
 				3BAA4BBF22608FFC00A6B3BF /* EmptyDataView.swift in Sources */,
+				3B4B712422670F7400378941 /* API+Repo.swift in Sources */,
 				3BAA4BB822608BB700A6B3BF /* Storyboards.swift in Sources */,
 				3BAA4BBA22608D5C00A6B3BF /* LoginViewController.swift in Sources */,
 				3BAA4BC92260909600A6B3BF /* MainViewModel.swift in Sources */,
+				3B4B711E2267055900378941 /* APIOutput.swift in Sources */,
 				3BAA4BA4226089D400A6B3BF /* ViewModelType+.swift in Sources */,
 				3BAA4BA5226089D400A6B3BF /* UITableView+.swift in Sources */,
 				3BAA4B9C226089D400A6B3BF /* PagingInfo+OrderedSet.swift in Sources */,
@@ -476,12 +516,16 @@
 				3BAA4BB422608B2B00A6B3BF /* LoginAssembler.swift in Sources */,
 				3BF9EF9B2260931500384F09 /* AppUseCase.swift in Sources */,
 				3BAA4BCC2260909600A6B3BF /* MainUseCase.swift in Sources */,
+				3B4B711C2266E2E700378941 /* APIInput.swift in Sources */,
 				3BAA4BB322608B2B00A6B3BF /* LoginViewModel.swift in Sources */,
 				3BAA4BCB2260909600A6B3BF /* MenuCell.swift in Sources */,
+				3B4B712222670F4400378941 /* APIUrls.swift in Sources */,
 				3BAA4BA822608AD000A6B3BF /* Utils.swift in Sources */,
 				3BAA4B72226085F700A6B3BF /* AppDelegate.swift in Sources */,
 				3BAA4B9D226089D400A6B3BF /* UICollectionView+.swift in Sources */,
 				3BAA4B9F226089D400A6B3BF /* Optional+.swift in Sources */,
+				3B4B712022670EE700378941 /* APIError.swift in Sources */,
+				3B4B712722670FDE00378941 /* Repo.swift in Sources */,
 				3BF9EF9E2260931500384F09 /* AppViewModel.swift in Sources */,
 				3BAA4BA0226089D400A6B3BF /* Observable+.swift in Sources */,
 				3BAA4BA3226089D400A6B3BF /* UIViewController+.swift in Sources */,
