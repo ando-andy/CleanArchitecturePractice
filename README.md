@@ -124,7 +124,7 @@ Observableを自動的に解放するための機能<sup><a href="#6">6</a></sup
 
 [Example2 code of CA (from quita)](https://github.com/koutalou/iOS-CleanArchitecture)
 
-[Example of RxSwift(from quita)](https://qiita.com/jollyjoester/items/c4013c60acd453ea7248)
+[Example of RxSwift(from quita)](https://qiita.com/orimomo/items/3120aff12a06f0ab14e2)
 
 ## Book
 
