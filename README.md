@@ -52,16 +52,22 @@ Assembler
 
 [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
 
-### Code
+## Code
+
+### Engish
 [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
 [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
 
 [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
+### Japanese
+
 [Example1 code of CA (from peaks)](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
 [Example2 code of CA (from quita)](https://github.com/koutalou/iOS-CleanArchitecture)
+
+[Example of RxSwift(from quita)](https://qiita.com/jollyjoester/items/c4013c60acd453ea7248)
 
 ## Book
 
