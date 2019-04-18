@@ -39,7 +39,7 @@ Assembler
 
 [^2]:  [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
-[^3]:  [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
+[^3]:[Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
 [^4]:  [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
