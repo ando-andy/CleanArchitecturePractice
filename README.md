@@ -33,6 +33,8 @@ Assembler
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される[^3] 。
 
 
+# 脚注
+[^3]:　あ
 # Reference
 ### Web
 [^1]:  [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
