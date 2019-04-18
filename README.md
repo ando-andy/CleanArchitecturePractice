@@ -96,6 +96,7 @@ Observableを自動的に解放するための機能<sup><a href="#5">5</a></sup
 ### English
 
 [CleanArchitecture by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
 [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [SOLID Principles every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
