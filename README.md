@@ -33,8 +33,8 @@ Assembler
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
 
-[^1]: 脚注の注釈内容は、このように記述します。
-
+# Footnote
+<span id="1" style="font-size:x-small">1: 注釈の内容</span>
 
 
 # Reference
