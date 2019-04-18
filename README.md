@@ -23,10 +23,10 @@
 
 ### concept of CleanArchitecture<sup><a href="#2">2</a></sup>
 
-### SOLID Principle<sup><a href="#2">2</a></sup>
+### SOLID Principle<sup><a href="#3">3</a></sup>
 
 ### DI(Dependency Injection) 
-DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#3">3</a></sup>
+DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#4">4</a></sup>
 ```
 //Login
 Assembler
@@ -43,7 +43,7 @@ Rx 用語まとめ(words)
 
 - Stream (Sequence)...
 
-データがイベントとして連なった流れ<sup><a href="#4">4</a></sup>
+データがイベントとして連なった流れ<sup><a href="#5">5</a></sup>
 
 - Observable...
 
@@ -65,7 +65,7 @@ filter・map・merge・zip・reduce etc
 
 - DisposeBag...
 
-Observableを自動的に解放するための機能<sup><a href="#5">5</a></sup>
+Observableを自動的に解放するための機能<sup><a href="#6">6</a></sup>
 
 
 # Footnote
