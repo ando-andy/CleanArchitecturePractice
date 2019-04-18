@@ -2,7 +2,7 @@
 #  The goal of this practice
 ### Comprehension and implementation of
    
-　  1. Clean Architecture
+　  1. Clean Architecture<sup><a href="#1">1</a></sup>
     
  - 1-1 Dependency Injection  
  - 1-2 Dependency inversion principle
@@ -64,6 +64,8 @@ DisposeBagはObservableを自動的に解放するための機能<sup><a href="#
 
 
 # Footnote
+<span id="1" style="font-size:x-small">1: [5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)</span>
+
 <span id="3" style="font-size:x-small">3: [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)</span>
 
 <span id="4" style="font-size:x-small">4: [RxSwift + MVVM by ishkawa](https://speakerdeck.com/ishkawa/rxswift-plus-mvvm)</span>
@@ -76,6 +78,8 @@ DisposeBagはObservableを自動的に解放するための機能<sup><a href="#
 ### Article
 
 ### Japanese
+[5 minutes to understand CA](https://www.slideshare.net/kenjitanaka58/5-66290992)
+
 [Begineer for Rx](https://qiita.com/nomok_/items/39b5d7c61810f274768d)
 
 [Observer pattern Wiki](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
