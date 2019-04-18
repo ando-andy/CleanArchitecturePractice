@@ -21,7 +21,7 @@
 ## CleanArchitecure
 
 ### DI(Dependency Injection) 
-      Dependency Injection[^3]: では、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。
+Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。[^3]
 ```
 //Login
 Assembler
@@ -30,33 +30,33 @@ Assembler
   LoginView
   LoginViewModel
 ```
-アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される[^3]: 。
+アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される[^3] 。
 
 
 # Reference
 ### Web
-1. [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
+[^1]:  [Example of Clean Architecture of iOS app using RxSwift](https://github.com/sergdort/CleanArchitectureRxSwift)
 
-2. [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
+[^2]:  [Folked from this project](https://github.com/tuan188/MGCleanArchitecture)
 
-3. [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
+[^3]:  [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
-4. [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
+[^4]:  [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
-5. [Example1 code ofCA](https://github.com/peaks-cc/iOS_architecture_samplecode)
+[^5]:  [Example1 code ofCA](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
-6. [Example2 code ofCA](https://github.com/koutalou/iOS-CleanArchitecture)
+[^6]:  [Example2 code ofCA](https://github.com/koutalou/iOS-CleanArchitecture)
 
 ### Book
-7. 「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
+[^7]:  「RxSwift 研究読本1 入門編」「RxSwift 研究読本2 エラーハンドリング編」「研究読本3 ViewModel 設計パターン編」　
 
-8. 「iOSアプリ設計パターン入門」
+[^8]:  「iOSアプリ設計パターン入門」
 
-9. 「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
+[^9]:  「Clean Architecture(達人に学ぶソフトウェアの構造と設計)」
 
-10. "Swift3 Functional Programing"
+[^10]:  "Swift3 Functional Programing"
 
-11. "Test-Driven iOS Development with Swift 3"
+[^11]:  "Test-Driven iOS Development with Swift 3"
 
-12. "RxSwift Reactive Programming with Swift"
+[^12]:  "RxSwift Reactive Programming with Swift"
 
