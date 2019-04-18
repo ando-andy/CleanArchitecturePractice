@@ -59,8 +59,9 @@ filter・map・merge・zip・reduce etc
 関数によって複数の処理を組み合わせる
 入力と出力の関係だけのコードで書くことが推奨(外部のデータを変更しない)
 
-- DisposeBag
-DisposeBagはObservableを自動的に解放するための機能<sup><a href="#5">5</a></sup>
+- DisposeBag...
+
+Observableを自動的に解放するための機能<sup><a href="#5">5</a></sup>
 
 
 # Footnote
