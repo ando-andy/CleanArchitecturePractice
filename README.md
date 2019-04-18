@@ -35,7 +35,9 @@ Assembler
 
 ## RxSwwift
 - words
+
 Rx 用語まとめ
+
 ・Stream (Sequence)<sup><a href="#4">4</a></sup>
   データがイベントとして連なった流れ
 
