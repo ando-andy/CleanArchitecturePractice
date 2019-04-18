@@ -21,7 +21,7 @@
 ## CleanArchitecure
 
 ### DI(Dependency Injection) 
-Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#1">3</a></sup>
+Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#3">3</a></sup>
 ```
 //Login
 Assembler
