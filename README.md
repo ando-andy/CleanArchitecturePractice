@@ -44,6 +44,7 @@ Assembler
 
 ### Japanese
 [Begineer for Rx](https://qiita.com/nomok_/items/39b5d7c61810f274768d)
+
 [Observer pattern](https://ja.wikipedia.org/wiki/Observer_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
 
 ### English
