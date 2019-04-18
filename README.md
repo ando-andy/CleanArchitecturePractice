@@ -21,6 +21,8 @@
 
 ## CleanArchitecure<sup><a href="#1">1</a></sup>
 
+### concept of CleanArchitecture<sup><a href="#2">2</a></sup>
+
 ### DI(Dependency Injection) 
 DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#3">3</a></sup>
 ```
