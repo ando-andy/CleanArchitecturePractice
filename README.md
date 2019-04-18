@@ -34,9 +34,8 @@ Assembler
 アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
 
 ## RxSwwift
-- words
 
-Rx 用語まとめ
+Rx 用語まとめ(words)
 
 - Stream (Sequence)...
 
