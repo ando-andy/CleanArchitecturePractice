@@ -1,17 +1,17 @@
 
 #  The goal of this practice
 ### Comprehension and implementation of
-
-　   1. Reactive Programming
-    
- - 1-1.Rxswift
- - 1-2.MVVM
    
-　   2. Clean Architecture
+　  1. Clean Architecture
     
- - 2-1 Dependency Injection  
- - 2-2 Dependency inversion principle
- - 2-3 SOLID principle
+ - 1-1 Dependency Injection  
+ - 1-2 Dependency inversion principle
+ - 1-3 SOLID principle
+ 
+　  2. Reactive Programming
+    
+ - 2-1.Rxswift
+ - 2-2.MVVM
 
   
 # What is CleanArchitecture + RxSwift + MVVM ?
