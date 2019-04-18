@@ -21,7 +21,7 @@
 ## CleanArchitecure
 
 ### DI(Dependency Injection) 
-Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。[^1]
+Dependency Injectionでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。 <sup> 1 </ sup>
 ```
 //Login
 Assembler
@@ -46,7 +46,7 @@ Assembler
 
 [Easy to generate the structure of Dependency Injection](https://github.com/tuan188/MGiGen)
 
-[What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
+1. [What is Dependency Injection?](https://medium.com/makingtuenti/dependency-injection-in-swift-part-1-236fddad144a)
 
 [Example1 code ofCA](https://github.com/peaks-cc/iOS_architecture_samplecode)
 
