@@ -35,10 +35,10 @@ extension MainViewModel: ViewModelType {
             }
             .do(onNext: { menu in
                 switch menu {
+                case .repos:
+                    self.navigator.toRepos()
                 case .login:
                     self.navigator.toLogin()
-                default:
-                    return
                 }
             })
             .mapToVoid()
@@ -51,6 +51,7 @@ extension MainViewModel: ViewModelType {
     
     func menuSections() -> [MenuSection] {
         return [
+            MenuSection(title: "Git", menus: [ .repos ]),
             MenuSection(title: "", menus: [ .login ])
         ]
     }
@@ -58,10 +59,13 @@ extension MainViewModel: ViewModelType {
 
 extension MainViewModel {
     enum Menu: Int, CustomStringConvertible, CaseIterable {
-        case login = 1
+        case repos = 1
+        case login = 2
         
         var description: String {
             switch self {
+            case .repos:
+                return "Git Repo List"
             case .login:
                 return "Login"
             }

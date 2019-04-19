@@ -1,11 +1,3 @@
-//
-//  ValidationError.swift
-//  CleanArchitecture
-//
-//  Created by Tuan Truong on 6/28/18.
-//  Copyright © 2018 Framgia. All rights reserved.
-//
-
 import UIKit
 
 enum ValidationError: Error {
