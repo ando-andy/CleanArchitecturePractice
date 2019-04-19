@@ -1,6 +1,8 @@
 protocol Assembler: class,
     MainAssembler,
     LoginAssembler,
+    ReposAssembler,
+    RepositoriesAssembler,
     AppAssembler {
 }
 

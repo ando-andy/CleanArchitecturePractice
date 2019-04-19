@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RepoCell" rowHeight="71" id="2Lv-oG-vv9" customClass="RepoCell" customModule="CleanArchitecture" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Lv-oG-vv9" id="eO5-bX-k4c">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WTG-Dk-pSr">
+                        <rect key="frame" x="16" y="7" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="2Gb-Fm-zap"/>
+                            <constraint firstAttribute="width" constant="56" id="EDR-jQ-eu3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqk-kp-PFe">
+                        <rect key="frame" x="88" y="24.5" width="216" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="WTG-Dk-pSr" secondAttribute="bottom" constant="7.5" id="Agw-3B-z7R"/>
+                    <constraint firstItem="Qqk-kp-PFe" firstAttribute="leading" secondItem="WTG-Dk-pSr" secondAttribute="trailing" constant="16" id="BJ1-CX-uAL"/>
+                    <constraint firstItem="Qqk-kp-PFe" firstAttribute="trailing" secondItem="eO5-bX-k4c" secondAttribute="trailingMargin" id="BTU-Ad-nAG"/>
+                    <constraint firstItem="Qqk-kp-PFe" firstAttribute="centerY" secondItem="WTG-Dk-pSr" secondAttribute="centerY" id="bMF-v5-e7d"/>
+                    <constraint firstItem="WTG-Dk-pSr" firstAttribute="leading" secondItem="eO5-bX-k4c" secondAttribute="leading" constant="16" id="fNi-mM-1vV"/>
+                    <constraint firstItem="WTG-Dk-pSr" firstAttribute="top" secondItem="eO5-bX-k4c" secondAttribute="top" constant="7" id="h6A-Cq-yza"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="dlt-HH-4K8"/>
+            <connections>
+                <outlet property="avatarURLStringImageView" destination="WTG-Dk-pSr" id="cEz-tP-iic"/>
+                <outlet property="nameLabel" destination="Qqk-kp-PFe" id="hqw-Z3-4Cg"/>
+            </connections>
+            <point key="canvasLocation" x="-56" y="-9.5"/>
+        </tableViewCell>
+    </objects>
+</document>
