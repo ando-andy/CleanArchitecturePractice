@@ -1,11 +1,3 @@
-//
-//  AppAssembler.swift
-//  CleanArchitecture
-//
-//  Created by Tuan Truong on 7/15/18.
-//  Copyright © 2018 Framgia. All rights reserved.
-//
-
 import UIKit
 
 protocol AppAssembler {
