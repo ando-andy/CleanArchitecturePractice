@@ -27,16 +27,7 @@
 ### SOLID Principle<sup><a href="#3">3</a></sup>
 
 ### DI(Dependency Injection) 
-DIでは、モジュールから部品を取り出すことで、追加機能や保守、テストなどの時に、余分な工数がかからなくて済む。<sup><a href="#4">4</a></sup>
-```
-//Login
-Assembler
-  Navigator
-  UseCase
-  LoginView
-  LoginViewModel
-```
-アゼンブラーに各機能がバインドされており、それぞれの機能はそれぞれに任される。
+<sup><a href="#4">4</a></sup>
 
 ## RxSwwift
 
